@@ -8,12 +8,21 @@ import Slider from "react-slick";
 export default class RoomSlider extends Component {
   render() {
     var settings = {
-      dots: true,
+      /* dots: true,
       infinite: false,
-      speed: 500,
+      autoplay: true,
+      speed: 2000,
       slidesToShow: 4,
       slidesToScroll: 4,
-      initialSlide: 0,
+      initialSlide: 0, */
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
       responsive: [
         {
           breakpoint: 1024,
@@ -43,31 +52,143 @@ export default class RoomSlider extends Component {
     };
     return (
       <div>
-        <h2> Responsive </h2>
+        <h1 className="text-center"> Responsive </h1>
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
+          <div className="container">
+            <div class="card h-100   m-4 ">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>2</h3>
+            <div class="card h-100   m-4">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>3</h3>
+            <div class="card h-100   m-4">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>4</h3>
+            <div class="card h-100   m-4">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>5</h3>
+            <div class="card h-100   m-4">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>6</h3>
+            <div class="card h-100   m-4">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>7</h3>
+            <div class="card h-100   m-4">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
           <div>
-            <h3>8</h3>
+            <div class="card h-100   m-4">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
           </div>
         </Slider>
       </div>
