@@ -52,7 +52,7 @@ export default class RoomSlider extends Component {
     };
     return (
       <div>
-        <h1 className="text-center"> Responsive </h1>
+        <h1 className="text-center"> Our Hotels </h1>
         <Slider {...settings}>
           <div className="container">
             <div class="card h-100   m-4 ">

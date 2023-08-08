@@ -3,6 +3,7 @@ const Room = () => {
   return (
     <>
       <div class="container">
+        <p style={{cursor:'pointer'}} className="text-end ">See all <i class="fas fa-arrow-right-long"></i></p>
         <div class="row mt-5">
           <div class="preview-card">
             <div class="preview-card__wrp">

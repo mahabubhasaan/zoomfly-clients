@@ -18,25 +18,31 @@ const Header = () => {
           }}
         >
           <div class="d-flex justify-content-center align-items-center h-100">
-          <div class="text-white">
-          <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
-          <h5 class="mb-4">Best & free guide of responsive web design</h5>
-          <a
-            class="btn btn-outline-light btn-lg m-2"
-            href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-            role="button"
-            rel="nofollow"
-            target="_blank"
-          >Start tutorial</a
-          >
-          <a
-            class="btn btn-outline-light btn-lg m-2"
-            href="https://mdbootstrap.com/docs/standard/"
-            target="_blank"
-            role="button"
-          >Download MDB UI KIT</a
-          >
-        </div>
+            <div class="text-white">
+              <h1 class="mb-3">Unwind at Pan Pacific ZoomFly Dhaka </h1>
+              <h5 class="mb-4">
+                Walk down the aisle at Pan Pacific Sonargaon Dhaka, where our
+                elegant spaces provide the romantic backdrop for your special
+                celebration.
+              </h5>
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                role="button"
+                rel="nofollow"
+                target="_blank"
+              >
+                Book Now
+              </a>
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://mdbootstrap.com/docs/standard/"
+                target="_blank"
+                role="button"
+              >
+                Explore
+              </a>
+            </div>
           </div>
         </div>
       </div>

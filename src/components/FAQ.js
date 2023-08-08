@@ -21,14 +21,7 @@ const FAQ = () => {
             aria-labelledby="headingOne"
           >
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Yes, free Wi-Fi is available at Radisson Blu Dhaka Water Garden.
             </div>
           </div>
         </div>
@@ -51,14 +44,7 @@ const FAQ = () => {
             aria-labelledby="headingTwo"
           >
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Yes, Radisson Blu Dhaka Water Garden is a smoke free hotel.
             </div>
           </div>
         </div>
@@ -81,14 +67,8 @@ const FAQ = () => {
             aria-labelledby="headingThree"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Yes, baggage storage is available at Radisson Blu Dhaka Water
+              Garden.
             </div>
           </div>
         </div>
@@ -111,14 +91,7 @@ const FAQ = () => {
             aria-labelledby="headingFour"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Yes , parking is available at Radisson Blu Dhaka Water Garden
             </div>
           </div>
         </div>
@@ -141,14 +114,8 @@ const FAQ = () => {
             aria-labelledby="headingFive"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              At Radisson Blu Dhaka Water Garden, check in is at 14:00 and check
+              out is at 12:00.
             </div>
           </div>
         </div>
@@ -171,14 +138,109 @@ const FAQ = () => {
             aria-labelledby="headingSix"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              Radisson Blu Dhaka Water Garden has 8 onsite meeting and
+              conference rooms.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#panelsStayOpen-collapseSeven"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSeven"
+            >
+              Accordion Item #6
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseSeven"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSeven"
+          >
+            <div class="accordion-body">
+              Yes, breakfast is available at Radisson Blu Dhaka Water Garden.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#panelsStayOpen-collapseEight"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseEight"
+            >
+              Accordion Item #6
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseEight"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingEight"
+          >
+            <div class="accordion-body">
+              Rooms offered at Radisson Blu Dhaka Water Garden are Business
+              Class Room - 1 king, Business Class Room - 2 twin, Deluxe Guest
+              Room - 1 queen, Deluxe Guest Room - 2 twin, Deluxe Room - 1 king,
+              Deluxe Room - 2 double, Executive Suite - 1 king, Executive Suite
+              - 2 double, Suite - 1 king, Suite - 2 double, Superior Room - 1
+              king, Superior Room - 2 double
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNine">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#panelsStayOpen-collapseNine"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseNine"
+            >
+              Accordion Item #6
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTen"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTen"
+          >
+            <div class="accordion-body">
+              All Radisson hotels have cleanliness and sanitization measures in
+              place to ensure the health, safety, and security of our guests.
+              Learn more here:
+              https://www.radissonhotels.com/en-us/social-responsibility/health-safety
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEleven">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#panelsStayOpen-collapseEleven"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseEleven"
+            >
+              Accordion Item #6
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseEleven"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingEleven"
+          >
+            <div class="accordion-body">
+              Radisson Blu Dhaka Water Garden is located at Airport Rd, Dhaka
+              Cantonment, Dhaka, 1206, Bangladesh.
             </div>
           </div>
         </div>

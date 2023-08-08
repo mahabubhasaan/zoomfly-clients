@@ -12,68 +12,89 @@ const NavigationsBar = () => {
             class="navbar-toggler"
             type="button"
             data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-mdb-target="#navbar"
+            aria-controls="navbar"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <i class="fas fa-bars"></i>
           </button>
 
-          {/*  <!-- Collapsible wrapper --> */}
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            {/*  <!-- Navbar brand --> */}
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                height="15"
-                alt="MDB Logo"
-                loading="lazy"
-              />
-            </a>
-            {/*  <!-- Left links --> */}
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbar"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Dashboard
+                <a class="nav-link active" aria-current="page" href="#">
+                  Home
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Team
+                  Rooms
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Action
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Another action
+                    </a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Something else here
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Finde Hotels
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Projects
+                  Contact
                 </a>
               </li>
             </ul>
-            {/* <!-- Left links --> */}
           </div>
-          {/*  <!-- Collapsible wrapper --> */}
 
           {/* <!-- Right elements --> */}
           <div class="d-flex align-items-center">
             {/* <!-- Icon --> */}
-            <a class="text-reset me-3" href="#">
-              <i class="fas fa-shopping-cart"></i>
-            </a>
 
             {/*  <!-- Notifications --> */}
             <div class="dropdown">
               <a
-                class="text-reset me-3 dropdown-toggle hidden-arrow"
+                class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdownMenuLink"
+                id="navbarDropdown"
                 role="button"
                 data-mdb-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i class="fas fa-bell"></i>
-                <span class="badge rounded-pill badge-notification bg-danger">
-                  1
-                </span>
+                <i class="flag-united-kingdom flag m-0"></i>
               </a>
               <ul
                 class="dropdown-menu dropdown-menu-end"
@@ -81,23 +102,57 @@ const NavigationsBar = () => {
               >
                 <li>
                   <a class="dropdown-item" href="#">
-                    Some news
+                    <i class="flag-united-kingdom flag"></i>English
+                    <i class="fa fa-check text-success ms-2"></i>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="flag-russia flag"></i>Русский
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Another news
+                    <i class="flag-france flag"></i>Français
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Something else here
+                    <i class="flag-germany flag"></i>Deutsch
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="flag-japan flag"></i>日本語
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="flag-china flag"></i>中文
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="flag-poland flag"></i>Polski
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="flag-spain flag"></i>Español
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <i class="flag-portugal flag"></i>Português
                   </a>
                 </li>
               </ul>
             </div>
             {/*  <!-- Avatar --> */}
-            <div class="dropdown">
+            {/* <div class="dropdown">
               <a
                 class="dropdown-toggle d-flex align-items-center hidden-arrow"
                 href="#"
@@ -134,7 +189,7 @@ const NavigationsBar = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           {/*  <!-- Right elements --> */}
         </div>
@@ -143,6 +198,6 @@ const NavigationsBar = () => {
       {/* <!-- Navbar --> */}
     </div>
   );
-}
+};
 
 export default NavigationsBar;
