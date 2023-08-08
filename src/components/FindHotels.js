@@ -13,23 +13,38 @@ const FindHotels = () => {
                     width="600"
                     height="600"
                     frameborder="0"
-                    style={{border:"0"}}
+                    style={{ border: "0" }}
                     allowfullscreen
                   ></iframe>{" "}
                 </div>
                 <div class="preview-card__content">
-                  <span class="preview-card__code">26 December 2019</span>
-                  <div class="preview-card__title">Lorem Ipsum Dolor</div>
+                  <span class="preview-card__title">
+                    How to get to the Radisson Blu Dhaka Water Garden
+                  </span>
+                  <div class="preview-card__title">
+                    Airport Rd, Dhaka Cantonment, Dhaka 1206, Bangladesh <i class="fas fa-plane-departure"></i>
+                  </div>
                   <div class="preview-card__text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Recusandae voluptate repellendus magni illo ea animi?{" "}
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Recusandae voluptate repellendus magni illo ea animi?{" "}
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Recusandae voluptate repellendus magni illo ea animi?{" "}
+                    Airport Rd, Dhaka Cantonment, Dhaka 1206, Bangladesh
+                    Perfectly located in the center of Bangladesh's capital
+                    city, the Radisson Blu offers guests easy access to the
+                    National Assembly Building, business destinations, and local
+                    attractions such as Ahsan Manzil and the National Martyrs'
+                    Memorial. Guests appreciate the short 15-minute airport
+                    transfers to our location, just five kilometers from Hazrat
+                    Shahjalal International Airport (DAC), which ensure a
+                    relaxing arrival in Dhaka.
+                  </div>
+                  <div class="preview-card__title">
+                    From Shahjalal International Airport
+                  </div>
+                  <div class="preview-card__text">
+                    <strong>By taxi:</strong> It takes between 15 and 25
+                    minutes, depending on traffic, to drive the five kilometers
+                    to the hotel
                   </div>
                   <a href="#" class="preview-card__button">
-                    READ MORE
+                    Details more
                   </a>
                 </div>
               </div>
