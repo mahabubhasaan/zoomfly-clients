@@ -1,6 +1,6 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import './index.css'
 // ... rest of your code
 
 import { Routes, Route } from "react-router-dom";

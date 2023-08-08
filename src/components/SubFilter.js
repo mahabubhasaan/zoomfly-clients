@@ -1,3 +1,7 @@
+import Room from './Room';
+import FindHotels from '../components/FindHotels'
+import FAQ from './FAQ';
+
 const SubFilter = () => {
   return (
     <>
@@ -14,7 +18,7 @@ const SubFilter = () => {
               aria-controls="home"
               aria-selected="true"
             >
-              Home
+              Rooms
             </button>
           </li>
           <li class="nav-item" role="presentation">
@@ -28,7 +32,7 @@ const SubFilter = () => {
               aria-controls="profile"
               aria-selected="false"
             >
-              Profile
+              Find Hotels
             </button>
           </li>
           <li class="nav-item" role="presentation">
@@ -42,7 +46,7 @@ const SubFilter = () => {
               aria-controls="contact"
               aria-selected="false"
             >
-              Contact
+              FAQ
             </button>
           </li>
         </ul>
@@ -55,30 +59,7 @@ const SubFilter = () => {
           aria-labelledby="home-tab0"
         >
           <div>
-            <div class="card mb-3" style={{ maxWidth: "800px" }}>
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-                    alt="Trendy Pants and Shoes"
-                    class="img-fluid rounded-start"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                    <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+           <Room/>
           </div>
         </div>
         <div
@@ -87,7 +68,7 @@ const SubFilter = () => {
           role="tabpanel"
           aria-labelledby="profile-tab0"
         >
-          Tab 2 content
+          <FindHotels/>
         </div>
         <div
           class="tab-pane fade"
@@ -95,7 +76,7 @@ const SubFilter = () => {
           role="tabpanel"
           aria-labelledby="contact-tab0"
         >
-          Tab 3 content
+         <FAQ/>
         </div>
       </div>
     </>
