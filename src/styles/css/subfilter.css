@@ -130,7 +130,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	}
 }
 @media only screen and (max-width: 960px) {
-	.container {
+	.containerr {
 		padding: 0 30px 70px;
 	}
 	.section2 .col2 {

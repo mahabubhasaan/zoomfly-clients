@@ -9,13 +9,13 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div>
+    <>
       <NavigationsBar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <>
-      <div className="container ">
+      <div className="container mt-5">
         <h1 className="text-center">Our Services</h1>
         <div className="row gap-3 m-5">
           <div class="card text-center  col-md-3 " style={{ width: "18rem" }}>

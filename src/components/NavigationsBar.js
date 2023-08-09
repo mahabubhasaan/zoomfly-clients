@@ -49,12 +49,12 @@ const NavigationsBar = () => {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a class="dropdown-item" href="#">
-                      Action
+                      Standard
                     </a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
-                      Another action
+                      Deluxe
                     </a>
                   </li>
                   <li>
@@ -62,7 +62,7 @@ const NavigationsBar = () => {
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">
-                      Something else here
+                      Premier
                     </a>
                   </li>
                 </ul>
