@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const NavigationsBar = () => {
   return (
     <div>
@@ -26,14 +26,14 @@ const NavigationsBar = () => {
           >
             <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <Link class="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <Link class="nav-link" to="/rooms">
                   Rooms
-                </a>
+                </Link>
               </li>
               <li class="nav-item dropdown">
                 <a
