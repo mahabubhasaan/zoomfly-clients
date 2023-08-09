@@ -172,9 +172,9 @@ const Footer = () => {
         {/* <!-- Copyright --> */}
         <div
           class="text-center p-4"
-          style={{
+          /* style={{
             backgroundColor: "rgba(0, 0, 0, 0.5)",
-          }}
+          }} */
         >
           © 2023 Copyright:
           <a class="text-reset fw-bold" href="https://mdbootstrap.com/">

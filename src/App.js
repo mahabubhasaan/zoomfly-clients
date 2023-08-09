@@ -8,6 +8,7 @@ import NavigationsBar from "./components/NavigationsBar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import AllRooms from "./pages/AllRooms";
+import FindHotels from "./components/FindHotels";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/rooms" element={<AllRooms />}></Route>
+        <Route path="/findshotels" element={<FindHotels />}></Route>
       </Routes>
       <Footer />
     </>

@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom";
 import "../styles/css/room.css";
 const Room = () => {
   return (
     <>
       <div class="container">
-        <p style={{ cursor: "pointer" }} className="text-end ">
-          See all <i class="fas fa-arrow-right-long"></i>
-        </p>
+        <Link to="/rooms">
+          <p style={{ cursor: "pointer" }} className="text-end ">
+            See all <i class="fas fa-arrow-right-long"></i>
+          </p>
+        </Link>
         <div class="row mt-5">
           <div class="preview-card">
             <div class="preview-card__wrp">
@@ -34,9 +37,9 @@ const Room = () => {
                     Offering city views, our comfortable Standard Room features
                     convenient amenities to offer you a pleasant stay.{" "}
                   </div>
-                  <a href="#" class="preview-card__button">
+                  <Link to="/rooms" class="preview-card__button">
                     FIND OUT MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -69,9 +72,9 @@ const Room = () => {
                     its city and pool views as well as a selection of cable
                     television channels.{" "}
                   </div>
-                  <a href="#" class="preview-card__button">
+                  <Link to="/rooms" class="preview-card__button">
                     FIND OUT MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,9 +108,9 @@ const Room = () => {
                     great views, an ensuite bathroom and a well-equipped work
                     area.{" "}
                   </div>
-                  <a href="#" class="preview-card__button">
+                  <Link to="/rooms" class="preview-card__button">
                     FIND OUT MORE
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
