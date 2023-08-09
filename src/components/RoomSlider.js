@@ -62,11 +62,10 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Pan Pacific Cares</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Zoomfly Cares redefines guests’ stay experience with elevated
+                  standards and protocol to take care of our guests community.
                 </p>
               </div>
             </div>
@@ -79,11 +78,11 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Celebrations</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Walk down the aisle at Pan Pacific Sonargaon Dhaka, where our
+                  elegant spaces provide the romantic backdrop for your special
+                  celebration.
                 </p>
               </div>
             </div>
@@ -96,11 +95,10 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Jharna Grill</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Savour the taste of perfection with our signature restaurant’s
+                  offerings of grilled seafood and meats. .
                 </p>
               </div>
             </div>
@@ -113,11 +111,10 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Café Bazar</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Dine on a buffet of gastronomic treats from all over the globe
+                  amidst a charming ambience.
                 </p>
               </div>
             </div>
@@ -130,11 +127,10 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Aromaz</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Indulge in our delectable assortment of freshly baked pastries
+                  and confections.
                 </p>
               </div>
             </div>
@@ -147,11 +143,10 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Lobby Lounge</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Relax with your choice of refreshment to soothing live music
+                  at our Lobby Lounge.
                 </p>
               </div>
             </div>
@@ -164,11 +159,10 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Pool Café</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Delight in poolside barbeque fare, set against the vibrant
+                  city skyline with exiting.
                 </p>
               </div>
             </div>
@@ -181,11 +175,10 @@ export default class RoomSlider extends Component {
                 alt="Hollywood Sign on The Hill"
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Pacific Avenue</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Unwind with your favourite beverage at the mezzanine
+                  overlooking our lobby.
                 </p>
               </div>
             </div>
