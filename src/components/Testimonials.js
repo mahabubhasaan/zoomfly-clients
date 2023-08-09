@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import "../styles/css/reviews.css";
 
 export default class Testimonials extends Component {
   render() {
@@ -40,145 +41,157 @@ export default class Testimonials extends Component {
       ],
     };
     return (
-      <div >
+      <div>
         <h2 className="text-center">Reviews</h2>
         <Slider {...settings}>
-          <div>
-            <div class="card mb-3 m-2" style={{ maxWidth: "500px" }}>
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-                    alt="Trendy Pants and Shoes"
-                    class="img-fluid rounded"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    {/* <h5 class="card-title">Card title</h5> */}
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer. This is a wider card with supporting
-                      text below as a natural lead-in to additional content.
-                      This content is a little bit longer.
-                    </p>
-                    {/*  <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p> */}
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 item">
+                <div class="item-in">
+                  <div class="">
+                    <a href="#">
+                      <img
+                        style={{
+                          width: "100px",
+                          height: "100px",
+                          borderRadius: "5%",
+                        }}
+                        src="https://i.ibb.co/QCF3hrB/download.jpg"
+                        alt="download"
+                        border="0"
+                      />
+                      <div class="icon-topic">Sanvi Rahman</div>
+                    </a>
                   </div>
+                  <h4>"Great people, Great hospitality!"</h4>
+                  <div class="seperator"></div>
+                  <p>
+                    The best customer service ever we experienced.We can't say
+                    enough nice things about this hotel.It’s absolutely nice
+                    with tradition,class and a fun atmosphere.The swimming pool
+                    cafe,buffet restaurant,kids play zone and bar are
+                    excellent.We really enjoyed the live music.Thank you
+                    Hossain, Ali and all the staffs at Dhaka Radisson.Definitely
+                    we will recommend others!
+                  </p>
+                  <a href="#">
+                    Date: 23 Auguse 2023
+                    <i class="fa fa-long-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div>
-            <div class="card mb-3" style={{ maxWidth: "500px" }}>
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-                    alt="Trendy Pants and Shoes"
-                    class="img-fluid rounded"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    {/* <h5 class="card-title">Card title</h5> */}
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer. This is a wider card with supporting
-                      text below as a natural lead-in to additional content.
-                      This content is a little bit longer.
-                    </p>
-                    {/*  <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p> */}
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 item">
+                <div class="item-in">
+                  <div class="">
+                    <a href="#">
+                      <img
+                        style={{
+                          width: "100px",
+                          height: "100px",
+                          borderRadius: "5%",
+                        }}
+                        src="https://i.ibb.co/QCF3hrB/download.jpg"
+                        alt="download"
+                        border="0"
+                      />
+                      <div class="icon-topic">Sanvi Rahman</div>
+                    </a>
                   </div>
+                  <h4>"Great people, Great hospitality!"</h4>
+                  <div class="seperator"></div>
+                  <p>
+                    The best customer service ever we experienced.We can't say
+                    enough nice things about this hotel.It’s absolutely nice
+                    with tradition,class and a fun atmosphere.The swimming pool
+                    cafe,buffet restaurant,kids play zone and bar are
+                    excellent.We really enjoyed the live music.Thank you
+                    Hossain, Ali and all the staffs at Dhaka Radisson.Definitely
+                    we will recommend others!
+                  </p>
+                  <a href="#">
+                    Date: 23 Auguse 2023
+                    <i class="fa fa-long-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div>
-            <div class="card mb-3" style={{ maxWidth: "500px" }}>
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-                    alt="Trendy Pants and Shoes"
-                    class="img-fluid rounded"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    {/* <h5 class="card-title">Card title</h5> */}
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer. This is a wider card with supporting
-                      text below as a natural lead-in to additional content.
-                      This content is a little bit longer.
-                    </p>
-                    {/*  <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p> */}
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 item">
+                <div class="item-in">
+                  <div class="">
+                    <a href="#">
+                      <img
+                        style={{
+                          width: "100px",
+                          height: "100px",
+                          borderRadius: "5%",
+                        }}
+                        src="https://i.ibb.co/QCF3hrB/download.jpg"
+                        alt="download"
+                        border="0"
+                      />
+                      <div class="icon-topic">Sanvi Rahman</div>
+                    </a>
                   </div>
+                  <h4>"Great people, Great hospitality!"</h4>
+                  <div class="seperator"></div>
+                  <p>
+                    The best customer service ever we experienced.We can't say
+                    enough nice things about this hotel.It’s absolutely nice
+                    with tradition,class and a fun atmosphere.The swimming pool
+                    cafe,buffet restaurant,kids play zone and bar are
+                    excellent.We really enjoyed the live music.Thank you
+                    Hossain, Ali and all the staffs at Dhaka Radisson.Definitely
+                    we will recommend others!
+                  </p>
+                  <a href="#">
+                    Date: 23 Auguse 2023
+                    <i class="fa fa-long-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div>
-            <div class="card mb-3" style={{ maxWidth: "500px" }}>
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-                    alt="Trendy Pants and Shoes"
-                    class="img-fluid rounded"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    {/* <h5 class="card-title">Card title</h5> */}
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer. This is a wider card with supporting
-                      text below as a natural lead-in to additional content.
-                      This content is a little bit longer.
-                    </p>
-                    {/*  <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p> */}
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 item">
+                <div class="item-in">
+                  <div class="">
+                    <a href="#">
+                      <img
+                        style={{
+                          width: "100px",
+                          height: "100px",
+                          borderRadius: "5%",
+                        }}
+                        src="https://i.ibb.co/QCF3hrB/download.jpg"
+                        alt="download"
+                        border="0"
+                      />
+                      <div class="icon-topic">Sanvi Rahman</div>
+                    </a>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card mb-3" style={{ maxWidth: "500px" }}>
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.webp"
-                    alt="Trendy Pants and Shoes"
-                    class="img-fluid rounded"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    {/* <h5 class="card-title">Card title</h5> */}
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer. This is a wider card with supporting
-                      text below as a natural lead-in to additional content.
-                      This content is a little bit longer.
-                    </p>
-                    {/*  <p class="card-text">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </p> */}
-                  </div>
+                  <h4>"Great people, Great hospitality!"</h4>
+                  <div class="seperator"></div>
+                  <p>
+                    The best customer service ever we experienced.We can't say
+                    enough nice things about this hotel.It’s absolutely nice
+                    with tradition,class and a fun atmosphere.The swimming pool
+                    cafe,buffet restaurant,kids play zone and bar are
+                    excellent.We really enjoyed the live music.Thank you
+                    Hossain, Ali and all the staffs at Dhaka Radisson.Definitely
+                    we will recommend others!
+                  </p>
+                  <a href="#">
+                    Date: 23 Auguse 2023
+                    <i class="fa fa-long-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>

@@ -21,8 +21,19 @@ const FindHotels = () => {
                   <span class="preview-card__title">
                     How to get to the Radisson Blu Dhaka Water Garden
                   </span>
+
+                  <div class="preview-card__text" style={{ display: "block" }}>
+                    <p>
+                      <strong>Telephone:</strong> +880 6 3305 7011
+                    </p>
+                    <p>
+                      <strong>Mobile:</strong> +880 1605**7011
+                    </p>
+                    <strong>Email:</strong> Zoomfly@contact.com
+                  </div>
                   <div class="preview-card__title">
-                    Airport Rd, Dhaka Cantonment, Dhaka 1206, Bangladesh <i class="fas fa-plane-departure"></i>
+                    Airport Rd, Dhaka Cantonment, Dhaka 1206, Bangladesh{" "}
+                    <i class="fas fa-plane-departure"></i>
                   </div>
                   <div class="preview-card__text">
                     Airport Rd, Dhaka Cantonment, Dhaka 1206, Bangladesh
