@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
 import "../styles/css/room.css";
+import { useQuery } from "@apollo/client";
+import { GET_POSTS } from "../hooks/queries";
 const Room = () => {
+  const { loading, error, data } = useQuery(GET_POSTS);
+  const hotels = data?.hotels;
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error.message}</p>;
+  console.log("hello", data.hotels);
   return (
     <>
       <div class="container">
@@ -9,112 +16,40 @@ const Room = () => {
             See all <i class="fas fa-arrow-right-long"></i>
           </p>
         </Link>
-        <div class="row mt-5">
-          <div class="preview-card">
-            <div class="preview-card__wrp">
-              <div class="preview-card__item">
-                <div class="preview-card__img">
-                  <img
-                    src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="preview-card__content">
-                  <div class="preview-card__title">Standard Room</div>
-                  <span class="preview-card__code">
-                    {" "}
-                    Room Size:23sqm (237sq-ft){" "}
-                  </span>
-                  <span class="preview-card__code">
-                    Price starting from{" "}
-                    <div class="preview-card__title">USD130.00/night</div>
-                  </span>
-                  <span class="preview-card__code">
-                    Members save up to{" "}
-                    <div class="preview-card__title">USD20.00</div>
-                  </span>
-                  <div class="preview-card__text">
-                    Offering city views, our comfortable Standard Room features
-                    convenient amenities to offer you a pleasant stay.{" "}
-                  </div>
-                  <Link to="/rooms" class="preview-card__button">
-                    FIND OUT MORE
-                  </Link>
-                </div>
+        <div class="row ">
+          {hotels?.map((data) => (
+            <div class="row g-0 bg-light position-relative">
+              <div class="col-md-6 mb-md-0 p-md-4">
+                <img
+                  src={data.img}
+                  class="w-100"
+                  alt="hollywood sign"
+                />
               </div>
-            </div>
-          </div>
-          <div class="preview-card">
-            <div class="preview-card__wrp">
-              <div class="preview-card__item">
-                <div class="preview-card__img">
-                  <img
-                    src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="preview-card__content">
-                  <div class="preview-card__title">Deluxe Room</div>
-                  <span class="preview-card__code">
-                    {" "}
-                    Room Size:28sqm (302sq-ft){" "}
-                  </span>
-                  <span class="preview-card__code">
-                    Price starting from{" "}
-                    <div class="preview-card__title">USD150.00/night</div>
-                  </span>
-                  <span class="preview-card__code">
-                    Members save up to{" "}
-                    <div class="preview-card__title">USD24.00</div>
-                  </span>
-                  <div class="preview-card__text">
-                    Our Deluxe Room is a relaxing space for you to unwind with
-                    its city and pool views as well as a selection of cable
-                    television channels.{" "}
-                  </div>
-                  <Link to="/rooms" class="preview-card__button">
-                    FIND OUT MORE
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+              <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">Columns with stretched link</h5>
+                <p>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                  scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                  vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                  nisi vulputate fringilla. Donec lacinia congue felis in
+                  faucibus.
+                </p>
+                <span class="preview-card__code">
+                  Price starting from{" "}
+                  <div class="preview-card__title">USD170.00/night</div>
+                </span>
+                <span class="preview-card__code">
+                  Price starting from{" "}
+                  <div class="preview-card__title">USD170.00/night</div>
+                </span>
 
-          <div class="preview-card">
-            <div class="preview-card__wrp">
-              <div class="preview-card__item swiper-slide">
-                <div class="preview-card__img">
-                  <img
-                    src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg"
-                    alt=""
-                  />
-                </div>
-                <div class="preview-card__content">
-                  <div class="preview-card__title">Premier Room</div>
-                  <span class="preview-card__code">
-                    {" "}
-                    Room Size:28sqm (302sq-ft){" "}
-                  </span>
-                  <span class="preview-card__code">
-                    Price starting from{" "}
-                    <div class="preview-card__title">USD170.00/night</div>
-                  </span>
-                  <span class="preview-card__code">
-                    Members save up to{" "}
-                    <div class="preview-card__title">USD26.00</div>
-                  </span>
-                  <div class="preview-card__text">
-                    Our Premier Room makes for the perfect urban oasis with its
-                    great views, an ensuite bathroom and a well-equipped work
-                    area.{" "}
-                  </div>
-                  <Link to="/rooms" class="preview-card__button">
-                    FIND OUT MORE
-                  </Link>
-                </div>
+                <Link to="/rooms" class="stretched-link">
+                  Go somewhere
+                </Link>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </>

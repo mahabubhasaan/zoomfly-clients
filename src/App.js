@@ -14,7 +14,7 @@ import Bookings from "./pages/dashboard/Bookings";
 function App() {
   return (
     <>
-      {/* <NavigationsBar /> */}
+      <NavigationsBar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/rooms" element={<AllRooms />}></Route>
@@ -23,7 +23,7 @@ function App() {
           <Route path="/dashboardindex/bookings" element={<Bookings />} />
         </Route>
       </Routes>
-     {/*  <Footer /> */}
+      <Footer />
     </>
   );
 }
